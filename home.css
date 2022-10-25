@@ -27,6 +27,11 @@ nav ul li{
     line-height: 24px;
     cursor: pointer;
 }
+nav ul li a{
+    text-decoration: none;
+    color: #394149;
+}
+
 .logo{
     cursor: pointer;
 }
@@ -96,11 +101,9 @@ nav ul li{
 }
 #man{
     transform: translate(650px, -470px);
-    max-width: 100%;
+    /* max-width: 100%; */
 }
-#help-section{
-    margin-top: 96px;
-}
+
 #help-section h1{
     color: #1D3444;
     font-weight: 600;
@@ -156,9 +159,7 @@ nav ul li{
     /* margin-bottom: 100px; */
     padding-bottom: 96px;
 }
-.feaures{
-    /* margin-top: 97px; */
-}
+
 .feaures h1{
     font-weight: 600;
     font-size: 36px;
@@ -243,15 +244,26 @@ nav ul li{
     color: #0D1317;
 }
 .bg-img{
-    height: 700px;
-    width: 700px;
+    height: 650px;
+    width: 650px;
     background-color: yellow;
-    border-radius: 20px
+    border-radius: 50px
 }
 
 #about-img{
     background: url(./w2d4workfile/images/about-image.png) no-repeat;
-    transform: translate(700px, -560px);
+    background-size: cover;
+    transform: translate(650px, -560px);
+}
+#line-1{
+    position: absolute;
+    width: 153px;
+    height: 650px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    transform: translate(650px, -670px);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 #iluu-div{
     width: 596px;
@@ -268,6 +280,25 @@ nav ul li{
     display: flex;
     margin:0;
     margin-left: 72px;
+   padding-top: 56px;
+}
+#tab-bussiness{
+    color: #F58A07;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8 24;
+    background: #FFFFFF;
+    border-radius: 31px;
+}
+.tab-dig{
+    color: rgba(6, 50, 85, 0.3);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    padding: 8 24;
 }
 #helping{
     width: 510px;;
@@ -297,8 +328,11 @@ nav ul li{
     line-height: 106.5%;
     color: #F58A07;
 }
+#helping a::after{
+    content:"\2192";
+}
 #logo-right{
-    transform: translate(1070px, -590px);
+    transform: translate(1070px, -660px);
 }
 #section-finsweet{
     margin-top:128px;
@@ -329,6 +363,56 @@ nav ul li{
     display: inline-block;
     transform: translateX(90px);
 }
+#img8{
+    background: url(./w2d4workfile/images/team.png) no-repeat;
+    transform: translate(650px, -630px);
+    position: absolute
+}
+#line-2{
+    width: 120px;
+    height: 466px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0px 0px 20px;
+    position: absolute;
+    transform: translate(650px, -630px);
+}
+#woman{
+    margin-top: 128px;
+    background-color: #F58A07;
+}
+#max-width-2{
+    max-width: 1920px;
+}
+#woman-pic{
+    background: url(./w2d4workfile/images/experience-image.png) no-repeat;
+}
+#woman-text{
+    display: inline-block;
+    max-width: 100vw;
+}
+#woman-text h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 56px;
+    width: 532px;
+}
+#woman-text p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+    padding: 19 32;
+    background: #FFFFFF;
+    border-radius: 31px;
+    width: 216px;
+    margin: 0;
+    margin-top: 40px;
+}
 .img-logo-size{
     width: 80px;
     height: 80px;
@@ -348,6 +432,12 @@ nav ul li{
     background-color: aqua;
     width: 616px;
     height: 650px;
+    border-radius: 20px;
+}
+.bg3{
+    width: 470px;
+    height: 470px;
+    background-color: rebeccapurple;
     border-radius: 20px;
 }
 /* #help-section{
@@ -485,6 +575,18 @@ line-height: 27px;
 }
 .footer-logo2{
     display: flex;
+    justify-content: flex-end;
     margin-top: 80px;
 }
+.footer-cube{
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    width: 53px;
+    height: 287px;  
+    position: absolute;
+}
+#cube1{
+    transform: translate(320px, -300px);
+}
+
 

@@ -76,12 +76,21 @@ nav ul li{
     width: 616px;
     height: 650px;
     border-radius: 20px;
-
 }
 #img1{
     background: url(./w2d4workfile/Image.png);
     transform: translate(650px, -500px);
 }
+/* #line-11{
+    width: 180px;
+    height: 650px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 0px 19px 20px 0px;
+    transform: translate(1200px, -500px);
+    position: absolute;
+    transform: rotate(-180deg); */
+
 .main-section{
     margin-top:90px;
 }

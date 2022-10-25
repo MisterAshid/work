@@ -1,0 +1,16 @@
+#comm{
+    margin: 100 0;
+}
+#breaking{
+    width: 720px;
+    display: flex;
+    padding-bottom: 128px;
+}
+#breaking h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    margin: 30 0;
+}

@@ -1,0 +1,65 @@
+#have{
+    margin-top: 120px;
+    margin-bottom: 64px;
+}
+#have h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-bottom: 16px;
+}
+#question{
+    width: 561px;
+    display: inline-block;
+}
+#question h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    margin-bottom: 24px;
+}
+#location{
+    display: inline-block;
+    width: 270px;
+    margin-left: 100px;
+    transform: translateY(-70px);
+}
+#number{
+    width: 159px;
+    display: inline-block;
+    margin-left: 76px;
+    transform: translateY(-70px);
+}
+.names{
+    /* display: block; */
+    margin: 0;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 17 490 17 32;
+    margin-bottom: 16px;
+    outline: 0px;
+}
+#message{
+    padding: 32 490 109 32;
+}
+#maps{
+    float: right;
+    transform: translate(50px, -420px);
+    
+}
+#submit{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    text-transform: capitalize;
+    color: #FFFFFF; 
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 18 32;
+    width: 119px;
+    margin: 32 0 128 0;
+}

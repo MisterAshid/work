@@ -10,10 +10,10 @@
 #andrew{
     width: 559px;
     position: absolute;
-    transform: translateX(350px);
 }
 #andrew img{
     border-radius: 50%;
+    margin-right: 8px;
 }
 #andrew a{
     font-weight: 500;
@@ -39,6 +39,13 @@
     opacity: 0.7;
     color: #394149;
 }
+#name-date p{
+   margin: 0 24 0 0;
+   transform: translateX(40px);
+}
+#name-margin{
+    margin-left: 0
+}
 #our{
     font-style: normal;
     font-weight: 500;
@@ -49,7 +56,35 @@
 }
 #tabble-tennis{
     border-radius: 20px;
-    transform: translate(200px, -400px);
-    width: 1009px;
+    transform: translate(700px, -30px);
+    width: 649px;
     height: 493px;
+}
+#help-section3{
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+#help-section3 h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: capitalize;
+    color: #0D1317;
+
+}
+.latest-post2{
+    border-radius: 20px;
+    padding-bottom: 32px;
+    width: 400px;
+    margin: 0;
+    background: #EDF7FF;
+}
+.post-11{
+    background: url(./w2d4workfile/images/post-3.png);
+}
+.post-12{
+    background: url(./w2d4workfile/images/post1.png);
+}
+.post-13{
+    background: url(./w2d4workfile/images/post-2.png);
 }
