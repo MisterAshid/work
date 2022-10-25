@@ -116,10 +116,11 @@ nav ul li{
 }
 #help-text p{
     margin-top: 27px;
+    margin-bottom: 64px;
 }
 .container{
     display: flex;
-    margin-top: 64px;
+    /* margin-top: 64px; */
 }
 .container p{
     padding-right: 40px;
@@ -148,18 +149,15 @@ nav ul li{
    margin-bottom: 97px;
    text-decoration: none;
 }
-.container a ::after{
-    content: "2192";
-}
 #background2{
     background: #EDF7FF; 
     width: 100vw;
     /* height: 665px; */
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     padding-bottom: 96px;
 }
 .feaures{
-    margin-top: 97px;
+    /* margin-top: 97px; */
 }
 .feaures h1{
     font-weight: 600;
@@ -302,6 +300,9 @@ nav ul li{
 #logo-right{
     transform: translate(1070px, -590px);
 }
+#section-finsweet{
+    margin-top:128px;
+}
 #finsweet{
     width: 550px;
     display: inline-block;
@@ -349,9 +350,13 @@ nav ul li{
     height: 650px;
     border-radius: 20px;
 }
-#help-section{
-    background: #DCEAF5;
-    padding-bottom: 96px;
+/* #help-section{
+    /* background: #DCEAF5; */
+    /* padding-bottom: 96px; */
+
+#help-section2{
+    background: #DCEAF5; 
+    padding-bottom: 96px;   
 }
 #help-section h1{
     color: #1D3444;
@@ -361,6 +366,14 @@ nav ul li{
     letter-spacing: -0.03em;
     padding-top: 96px   
 }   
+#help-section2 h1{
+    color: #1D3444;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    padding-top: 96px 
+}
 #help-text{
     margin-top: 27px;
     margin-bottom: 64px;
@@ -368,7 +381,7 @@ nav ul li{
 .container{
     display: flex;
     justify-content: space-between;
-    /* margin-right: 40px; */
+    /* margin-top: 64px; */
 }
 
 .post{
@@ -395,18 +408,36 @@ nav ul li{
     border-radius: 20px;
     padding-bottom: 32px;
     width: 400px;
+    margin: 0;  
+}
+.latest-news{
+    margin: 0 32px;
+}
+.latest-news h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.latest-news p{
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 .container a{
    color: #F58A07;
    margin-bottom: 97px;
 }
-.container a ::after{
-    content: "2192";
+.container a::after{
+    content: "\2192";
 }
 .footer{
     background: #063255;
     height: 463px;
     color: #FFFFFF;
+}
+.footer h3{
+    font-weight: 600;
+    font-size: 18px;
+line-height: 27px;
 }
 .footer-text{
     padding-top:80px;
@@ -438,13 +469,19 @@ nav ul li{
     width: 342px;
     height: 54px;
     background: #FFFFFF;
-    border-radius: 31px;    
+    border-radius: 31px;
+    margin-top: 42px; 
+    margin-bottom: 50px;   
+    padding-left: 32px;
+    outline: 0px;
 }
 
 .join a{
     background: #F58A07;
     border-radius: 31px;
     text-decoration: none;
+    color: #FFFFFF;
+    padding: 18 32;
 }
 .footer-logo2{
     display: flex;

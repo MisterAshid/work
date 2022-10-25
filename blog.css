@@ -1,0 +1,55 @@
+#header-bg{
+    background: #DCEAF5;
+    width: 100vw;
+    height: 749px;
+    margin-top: 30px;
+}
+#header-post{
+    padding-top: 161px;
+}
+#andrew{
+    width: 559px;
+    position: absolute;
+    transform: translateX(350px);
+}
+#andrew img{
+    border-radius: 50%;
+}
+#andrew a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+    text-decoration: none;
+}
+#andrew a::after{
+    content: "\2192";
+}
+#andrew h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+
+    color: #1D3444;
+}
+#name-date{
+    display: flex;
+    transform: translateY(-25px);   
+    opacity: 0.7;
+    color: #394149;
+}
+#our{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin: 24 0;
+}
+#tabble-tennis{
+    border-radius: 20px;
+    transform: translate(200px, -400px);
+    width: 1009px;
+    height: 493px;
+}
